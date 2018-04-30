@@ -1,0 +1,6 @@
+*.pyc
+database/
+mzitu/*.pyc
+mzitu/__pycache__
+mzitu\spiders/*.pyc
+mzitu\spiders\__pycache__

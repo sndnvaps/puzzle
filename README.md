@@ -5,6 +5,10 @@
 
 <br>
 
+
+## 2018-4-30 更新内容
+- 修改Acg图片为 美女图片
+
 ## 2018-4-20 更新内容
 - 修复抓取路径到 2018-4-20 可用
 - 使用 ImagesPipeline 下载图片
@@ -51,6 +55,16 @@
 <br>
  
 ## 二、使用 puzzle 生成拼图 （use puzzle.py create mosaik puzzle） 
+
+<br>
+
+<br>
+
+## 安装pypiwin32 Scrapy 在x64平台使用 (install pypiwin32)
+
+<br>
+
+`pip install pypiwin32`
 
 <br>
 

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for acg project
+# Scrapy settings for mzitu project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,10 +9,10 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'acg'
-SPIDER_MODULES = ['acg.spiders']
-NEWSPIDER_MODULE = 'acg.spiders'
-ITEM_PIPELINES = { 'acg.pipelines.SaveImagesPipeline':300,}
+BOT_NAME = 'mzitu'
+SPIDER_MODULES = ['mzitu.spiders']
+NEWSPIDER_MODULE = 'mzitu.spiders'
+ITEM_PIPELINES = { 'mzitu.pipelines.SaveImagesPipeline':300,}
 IMAGES_STORE = 'database'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'acg (+http://www.yourdomain.com)'
